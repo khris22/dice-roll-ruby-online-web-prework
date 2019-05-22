@@ -2,6 +2,6 @@
 
 # Feel free to google "how to generate a random number in ruby"
 
-def roll(dice = roll)
+def roll(dice = rand 1..6)
   return "#{rand(1..6)}"
 end
