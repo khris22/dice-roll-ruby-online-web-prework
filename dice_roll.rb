@@ -4,5 +4,5 @@
 
 def roll(dice = rand 1..6)
   puts dice
-  return "#{rand(1..6)}"
+  return dice
 end
